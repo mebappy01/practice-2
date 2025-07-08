@@ -15,15 +15,13 @@ header {
 }
 
 .nav_menu {
-  max-width: 1352px;
+  max-width: 1512px;
+  width: 1356px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   padding-top: 32px;
-}
-
-nav {
 }
 
 nav ul {
@@ -50,9 +48,11 @@ nav li a {
   gap: 4px;
 }
 
+/* Header Content Style */
 .header_content {
+  max-width: 1512px;
   width: 802px;
-  margin: 444px 0 80px 80px;
+  margin: 444px 274.5px 80px 274.5px;
 }
 
 .header_btn {
@@ -84,12 +84,12 @@ nav li a {
 /* Destination Style */
 .sec_destination {
   max-width: 1512px;
+  width: 1352px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
 
 .destination_items {
-  width: 1352px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
