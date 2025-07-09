@@ -86,7 +86,6 @@ nav li a {
   max-width: 1512px;
   width: 1352px;
   margin: 0 auto;
-  padding-bottom: 80px 0;
 }
 
 .destination_items {
@@ -94,6 +93,7 @@ nav li a {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
 .destination_item {
