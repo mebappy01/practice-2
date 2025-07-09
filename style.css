@@ -86,7 +86,7 @@ nav li a {
   max-width: 1512px;
   width: 1352px;
   margin: 0 auto;
-  padding-bottom: 80px;
+  padding-bottom: 80px 0;
 }
 
 .destination_items {
@@ -157,6 +157,7 @@ nav li a {
   max-width: 100%;
   width: 1356px;
   margin: 0 auto;
+  padding: 80px 0;
 }
 
 .sec_escape_head {
@@ -187,7 +188,6 @@ nav li a {
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 .escape_item {
@@ -274,6 +274,7 @@ nav li a {
   max-width: 1512px;
   width: 1356px;
   margin: 0 auto;
+  padding: 80px 0;
 }
 
 .sec_faq_head {
@@ -318,4 +319,91 @@ span {
   font-size: 18px;
   font-weight: 400;
   color: #616161;
+}
+
+/* Subscribe Style */
+.sec_subscribe {
+  width: 100%;
+  height: 55vh;
+  background-image: url(./images/subscribe_back.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.subscribe_items {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe_content {
+  width: 700px;
+}
+
+.subscribe_content h2 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe_content form {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  padding: 10px 14px 10px 48px;
+  backdrop-filter: blur(2px);
+}
+
+.subscribe_content form input[type='email'] {
+  width: 397px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  background-color: #ffffff00;
+}
+
+.subscribe_content input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.subscribe_content input:focus {
+  outline: none;
+  border: none;
+}
+
+.subscribe_content form input[type='submit'] {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  background-color: #212121;
+  padding: 16px 40px;
+}
+
+.subscribe_content p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subscribe_content p a {
+  color: #ffffff;
+}
+
+/* Footer Style */
+footer {
+  max-width: 1512px;
+  width: 1352px;
+  background-color: #212121;
 }
